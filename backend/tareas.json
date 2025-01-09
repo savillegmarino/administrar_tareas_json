@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1734903839927,
+    "text": "estudiar python",
+    "completed": false
+  },
+  {
+    "id": 1734903849240,
+    "text": "estudiar javascript",
+    "completed": false
+  },
+  {
+    "id": 1734903858671,
+    "text": "estudiar php",
+    "completed": false
+  },
+  {
+    "id": 1735013244947,
+    "text": "leer",
+    "completed": false
+  },
+  {
+    "id": 1736278515520,
+    "text": "correr",
+    "completed": false
+  }
+]
