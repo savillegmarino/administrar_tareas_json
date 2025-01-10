@@ -9,7 +9,7 @@ const apiBaseUrl = window.location.hostname === 'localhost' ? 'http://localhost:
 // Cargar tareas del servidor
 function loadTasks() {
     console.log('Cargando tareas...');
-    fetch('${apiBaseUrl}/tasks')
+    fetch(`${apiBaseUrl}/tasks`)
         .then(response => {
             if (!response.ok) throw new Error('Error al cargar tareas');
             return response.json();
