@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', loadTasks);
 const form = document.getElementById('task-form');
 const input = document.getElementById('task-input');
 const taskList = document.getElementById('task-list');
-const apiBaseUrl = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://tu-aplicacion-en-render.com';
+const apiBaseUrl = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://administrar-tareas-json.onrender.com';
 
 
 // Cargar tareas del servidor
