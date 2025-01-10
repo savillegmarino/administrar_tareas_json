@@ -3,12 +3,13 @@ document.addEventListener('DOMContentLoaded', loadTasks);
 const form = document.getElementById('task-form');
 const input = document.getElementById('task-input');
 const taskList = document.getElementById('task-list');
+const apiBaseUrl = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://tu-aplicacion-en-render.com';
 
 
 // Cargar tareas del servidor
 function loadTasks() {
     console.log('Cargando tareas...');
-    fetch('http://localhost:3000/tasks')
+    fetch('${apiBaseUrl}/tasks')
         .then(response => {
             if (!response.ok) throw new Error('Error al cargar tareas');
             return response.json();
